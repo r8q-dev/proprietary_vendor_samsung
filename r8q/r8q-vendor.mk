@@ -142,48 +142,30 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/samsung/r8q/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/r8q/proprietary/vendor/etc/sec_config_oem:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config_oem \
-    vendor/samsung/r8q/proprietary/vendor/etc/sec_senn82ab_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_senn82ab_rfreg.bin \
     vendor/samsung/r8q/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/samsung/r8q/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_default_sensors.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_irq.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lps22hh_0.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_lsm6dso_0_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dso_0_0.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_lsm6dso_0_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dso_0_2.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_lsm6dso_0_4.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dso_0_4.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_power_0.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_lsm6dso_0.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_tmd4907_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_tmd4907_0.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_aont.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_aont.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_basic_gestures.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_basic_gestures.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_bring_to_ear.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_ccd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dae.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_diag_filter.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_distance_bound.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dpc.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_facing.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_facing.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_fmv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_geomag_rv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_geomag_rv.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_hw_revision.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_hw_revision.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_mag_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_mag_cal_legacy.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal_legacy.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_multishake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_multishake.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_pedometer.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_rmd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rmd.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_tilt_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_disabled.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/samsung/r8q/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/samsung/r8q/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
@@ -209,9 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/samsung/r8q/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/samsung/r8q/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/samsung/r8q/proprietary/vendor/firmware/sec_senn82ab_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_senn82ab_firmware.bin \
-    vendor/samsung/r8q/proprietary/vendor/firmware/wlan/qca_cld/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/bdwlan.bin \
-    vendor/samsung/r8q/proprietary/vendor/firmware/wlan/qca_cld/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/regdb.bin \
     vendor/samsung/r8q/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensor.hi847.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.hi847.so \
@@ -230,19 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensor.s5kgw2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.s5kgw2.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensor.s5khm1.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.s5khm1.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.0_0_sony_imx555.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.0_0_sony_imx555.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.0_1_lsi_s5k2ld.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.0_1_lsi_s5k2ld.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.12_0_sony_imx374_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.12_0_sony_imx374_full.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.12_1_lsi_s5k3j1_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.12_1_lsi_s5k3j1_full.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.14_lsi_s5kgw2_binning.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.14_lsi_s5kgw2_binning.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.1_0_sony_imx374.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.1_0_sony_imx374.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.1_1_lsi_s5k3j1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.1_1_lsi_s5k3j1.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k2la.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.2_lsi_s5k2la.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.3_lsi_s5kgw2.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.3_lsi_s5kgw2.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.4_0_sony_imx518.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.4_0_sony_imx518.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.4_1_sony_imx516.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.4_1_sony_imx516.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5k2la.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5k2la.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5kgw2.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5kgw2.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx374.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx374.bin \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx555.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx555.bin \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
@@ -273,7 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.samsung.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.realtimebokeh.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.samsung.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.smooth_transition.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_capture.so \
-    vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_depth.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_preview.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_recording.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.samsung.node.uniplugin_vdis.so \
@@ -305,7 +270,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
     vendor/samsung/r8q/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so \
     vendor/samsung/r8q/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/samsung/r8q/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
     vendor/samsung/r8q/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/r8q/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/samsung/r8q/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
@@ -363,7 +327,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/samsung/r8q/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/samsung/r8q/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
-    vendor/samsung/r8q/proprietary/vendor/lib/lib_SamsungRec_08020.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_08020.so \
     vendor/samsung/r8q/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
     vendor/samsung/r8q/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
     vendor/samsung/r8q/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
@@ -664,10 +627,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so \
-    vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@5.0-impl.so \
-    vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@5.0.so \
-    vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so \
-    vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.thermal@1.0.so \
@@ -689,19 +648,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensor.s5kgw2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.s5kgw2.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensor.s5khm1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.s5khm1.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.0_0_sony_imx555.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.0_0_sony_imx555.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.0_1_lsi_s5k2ld.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.0_1_lsi_s5k2ld.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.12_0_sony_imx374_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.12_0_sony_imx374_full.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.12_1_lsi_s5k3j1_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.12_1_lsi_s5k3j1_full.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.14_lsi_s5kgw2_binning.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.14_lsi_s5kgw2_binning.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.1_0_sony_imx374.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.1_0_sony_imx374.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5k3j1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5k3j1.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k2la.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.2_lsi_s5k2la.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.3_lsi_s5kgw2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.3_lsi_s5kgw2.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.4_0_sony_imx518.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.4_0_sony_imx518.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.sensormodule.4_1_sony_imx516.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.4_1_sony_imx516.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5k2la.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5k2la.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5kgw2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5kgw2.bin \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx374.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx374.bin \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx555.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx555.bin \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
@@ -732,7 +678,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.samsung.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.realtimebokeh.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.samsung.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.smooth_transition.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.uniplugin_capture.so \
-    vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.uniplugin_depth.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.uniplugin_preview.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_recording.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.uniplugin_recording.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.uniplugin_vdis.so \
@@ -769,7 +714,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/samsung/r8q/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
@@ -841,9 +785,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/libbeautyshot.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbeautyshot.arcsoft.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libbluetooth_a2dpsink_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_a2dpsink_session.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
-    vendor/samsung/r8q/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
-    vendor/samsung/r8q/proprietary/vendor/lib64/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbthost_if.so \
-    vendor/samsung/r8q/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
@@ -1173,7 +1114,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lps22hh_0.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/sensors/config/lsm6dso_0.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/lsm6dso_0_8g.json:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/sensors/config/lsm6dso_0_8g.json \
-    vendor/samsung/r8q/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml \
     vendor/samsung/r8q/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/r8q/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/samsung/r8q/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
