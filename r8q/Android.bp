@@ -85,9 +85,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleEx2HEXAGON",
+	name: "HotwordEnrollmentOKGoogleEx3HEXAGON",
 	owner: "samsung",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleEx2HEXAGON/HotwordEnrollmentOKGoogleEx2HEXAGON.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleEx3HEXAGON/HotwordEnrollmentOKGoogleEx3HEXAGON.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -97,9 +97,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleEx2HEXAGON",
+	name: "HotwordEnrollmentXGoogleEx3HEXAGON",
 	owner: "samsung",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleEx2HEXAGON/HotwordEnrollmentXGoogleEx2HEXAGON.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleEx3HEXAGON/HotwordEnrollmentXGoogleEx3HEXAGON.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
