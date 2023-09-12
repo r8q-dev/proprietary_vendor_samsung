@@ -1076,7 +1076,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.2.so \
-    vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.thermal@1.0.so
+    vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.thermal@1.0.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libvkservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkservice.so
+
 # End of common proprietary-blobs
 
 # Start of r8q specific blobs
@@ -1146,7 +1148,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/firmware/qca6390/bdwlan.elf2:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6390/bdwlan.elf2 \
     vendor/samsung/r8q/proprietary/vendor/firmware/qca6390/m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6390/m3.bin \
     vendor/samsung/r8q/proprietary/vendor/firmware/qca6390/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6390/regdb.bin \
-    vendor/samsung/r8q/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensor.s5k3l6.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensor.s5k3l6.so \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.12_sony_imx616_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.12_sony_imx616_full.bin \
     vendor/samsung/r8q/proprietary/vendor/lib/camera/com.samsung.sensormodule.1_sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.1_sony_imx616.bin \
