@@ -1092,6 +1092,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/r8q/proprietary/vendor/lib/libbauthzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthzcommon.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libbauthzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthzcommon.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libSemDataProps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSemDataProps.so \
+    vendor/samsung/r8q/proprietary/vendor/libSemTelephonyProps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSemTelephonyProps.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libqmiservices-ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices-ext.so
+   
+    
 
 # End of common proprietary-blobs
 
