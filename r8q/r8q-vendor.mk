@@ -1532,8 +1532,40 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e427_816x1056.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e427_816x1056.pb \
     vendor/samsung/r8q/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e568_1x800x720x4_CNR2.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e568_1x800x720x4_CNR2.pb \
     vendor/samsung/r8q/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e568_1x816x1056x4_CNR2.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e568_1x816x1056x4_CNR2.pb \
-    vendor/samsung/r8q/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e568_832x1072x4.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e568_832x1072x4.pb
-
+    vendor/samsung/r8q/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e568_832x1072x4.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e568_832x1072x4.pb \
+    vendor/samsung/r8q/proprietary/vendor/bin/hw/samsung.software.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.software.media.c2@1.0-service \
+    vendor/samsung/r8q/proprietary/vendor/etc/init/samsung.software.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.software.media.c2@1.0-service.rc \
+    vendor/samsung/r8q/proprietary/vendor/etc/media_codecs_c2_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec.xml \
+    vendor/samsung/r8q/proprietary/vendor/etc/media_codecs_c2_sec_ape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_ape.xml \
+    vendor/samsung/r8q/proprietary/vendor/etc/media_codecs_c2_sec_qcp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_qcp.xml \
+    vendor/samsung/r8q/proprietary/vendor/etc/media_codecs_c2_sec_wmx.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_wmx.xml \
+    vendor/samsung/r8q/proprietary/vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/samsung.software.media.c2-base-policy \
+    vendor/samsung/r8q/proprietary/vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/samsung.software.media.c2-ext-policy \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_aacdec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_aacenc.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_amrnbdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_amrnbdec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_amrwbdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_amrwbdec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_apedec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_apedec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_flacdec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_imadec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_imadec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp3dec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_mp43dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp43dec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_mp4vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_mp4vdec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_soft_common.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_vc1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_vc1dec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_wmadec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmadec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_wmv7dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmv7dec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_sec_wmv8dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_sec_wmv8dec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_simple_component.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_simple_component.so: \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ac4dec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_common.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcodec2_soft_eac3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_eac3dec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libSecC2ComponentStore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecC2ComponentStore.so
+    
+    
+    
+    
+    	
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
